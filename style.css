@@ -1,0 +1,146 @@
+*{
+    margin: 0 0 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+#Lo{
+    margin-left: 4rem;
+    font-size: 3rem;
+    color: darkorange;
+}
+ul.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.header__right{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+}
+.header{
+    display: flex;
+    height: 5rem;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+.header__left i{
+    padding:0 1rem;
+}
+.header__right i{
+    padding:0 1rem;
+}
+.Logo{width: 15rem;}
+.conten{
+    width: 60%;
+    color: coral;
+}
+.cart{
+    width: 40rem;
+}
+.im2{
+    width: 5rem;
+    height: 5rem;
+}
+.conten__ul{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+h4{
+    position: relative;
+    cursor: pointer;
+}
+h4:after{
+content: "";
+position: absolute;
+background-color: blueviolet;
+height: 3px;
+width: 0;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
+}
+h4:hover:after{
+    width: 100%;
+}
+.li1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+span{
+    width: 6rem;
+}
+.all__conten{
+    display: flex;
+    margin-top: 2rem;
+}
+.find{
+    margin-left: 14rem;
+    width: 10rem;
+    color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+hr{background-color: rgb(241, 241, 23); 
+    width: 0.01rem; 
+}
+hr.line{
+    width: 21rem;
+}
+.cart__in4{
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    background-color: antiquewhite;
+    width: 26rem;
+    height: 32rem;
+}
+.product{
+    width: 23rem;
+    height: 25rem;
+}
+button{
+    background-color: black;
+    color: aliceblue;
+    width: 6rem;
+    height: 2rem;
+}
+.but{
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    margin-left: 3rem;
+}
+h3{cursor: pointer;}
+.conten__ul ul.sub_menu{
+    position: absolute;
+    background-color: antiquewhite;
+    padding: 0 0;
+    display: none;
+}
+li:hover .sub_menu{
+    display: block;
+}
+.hm{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    color: black;
+}
+.fa-cart-shopping{
+    position: relative;
+}
+.fa{
+    position: absolute;
+    color: brown;
+    left: 0.8rem;
+    bottom: 0.4rem;
+}
+
